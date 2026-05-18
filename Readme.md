@@ -1,7 +1,7 @@
 # 🎧 AudioTechnics
 
 <p align="center">
-  <img src="assets/banner.png" alt="AudioTechnics Banner" width="100%">
+  <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1600&auto=format&fit=crop" width="100%" alt="AudioTechnics Banner">
 </p>
 
 <p align="center">
