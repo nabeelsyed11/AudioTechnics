@@ -81,18 +81,6 @@ Open index.html
 
 ---
 
-## 📸 Screenshots
-
-### Home Page
-
-```md
-Add screenshot here:
-
-![Home](images/home.png)
-```
-
----
-
 ## 🎯 Project Objective
 
 The main objective of this project is to develop an attractive and responsive audio-based website that provides users with an engaging interface for exploring audio products and services.
@@ -115,8 +103,6 @@ The main objective of this project is to develop an attractive and responsive au
 **Syed Nabeel Ahmed**
 
 GitHub: https://github.com/nabeelsyed11
-
-Portfolio Website: https://nabeelsyed11.github.io/AudioTechnics/
 
 ---
 
