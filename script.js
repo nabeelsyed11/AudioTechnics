@@ -1,4 +1,29 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // 0. Typing Animation for Hero Title
+    const heroTitle = document.querySelector('.hero-title');
+    if (heroTitle) {
+        const textHTML = heroTitle.innerHTML.trim(); // "SOUND THAT<br>MOVES YOU."
+        heroTitle.innerHTML = '';
+        let i = 0;
+        let currentHTML = '';
+        
+        const typeWriter = () => {
+            if (i < textHTML.length) {
+                if (textHTML.substring(i, i + 4).toLowerCase() === '<br>') {
+                    currentHTML += '<br>';
+                    i += 4;
+                } else {
+                    currentHTML += textHTML.charAt(i);
+                    i++;
+                }
+                heroTitle.innerHTML = currentHTML + '<span class="cursor">|</span>';
+                let speed = Math.random() * 100 + 50; 
+                setTimeout(typeWriter, speed);
+            }
+        };
+        setTimeout(typeWriter, 500);
+    }
+
     // 1. Mobile Menu Toggle
     const hamburger = document.querySelector('.hamburger');
     const mobileMenu = document.querySelector('.mobile-menu');
